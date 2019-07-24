@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Cadastro</title>
+<link href="css/styles.css" type="text/css" rel="stylesheet"/>
+<script src="js/text.js" type="text/javascript"></script>
+</head>
+<body>
+ 
+<main>
+<form action="validação.html" method="get">
+<fieldset>
+<br>
+<tr>
+<td>
+<label for="login">Login:</label>
+</td>
+<td>
+<input type="text" id="login" name="campoLogin" />
+</td>
+</tr>
+<br>
+<tr>
+<td>
+<label for="email">E-mail:</label>
+</td>
+<td>
+<input type="text" id="email" name="campoEmail" />
+</td>
+</tr>
+<br>
+<tr>
+<td>
+<label for="datanasc">Data de nascimento:</label>
+</td>
+<td>
+<input type="text" id="datanasc" name="campoDataNascimento" />
+</td>
+</tr>
+<br>
+<tr>
+<td>
+<label for="senha">Senha:</label>
+</td>
+<td>
+<input type="text" id="senha" name="campoSenha" />
+</td>
+</tr>
+<br>
+<tr>
+<td>
+<label for="csenha">Confirmar senha:</label>
+</td>
+<td>
+<input type="text" id="csenha" name="campoCSenha" />
+</td>
+</tr>
+<br>
+<tr>
+<td>
+<label for="sexo">Sexo:</label>
+</td>
+<td>
+<select id="sexo" name="campoSexo">
+<option value=""></option>
+<option value="1">Feminino</option>
+<option value="2">Masculino</option>
+ 
+</select>
+</td>
+</tr>
+<br>
+<tr>
+<td>
+<label for="cidade">Cidade:</label>
+</td>
+<td>
+<input type="text" id="cidade" name="campoCidade" />
+</td>
+</tr>
+<br>
+ 
+<tr>
+<td>
+<label for="home">Home-Page:</label>
+</td>
+<td>
+<input type="text" id="home" name="campoHome" />
+</td>
+</tr>
+<br>
+ 
+<tr>
+<td>
+<label for="interesse">Interesses:</label>:</label>
+</td>
+<td>
+<label>
+<input name="campoInt" id="musica" type="checkbox"/> Música</label>
+ 
+<label>
+<input name="campoInt" id="esporte" type="checkbox"/> Esporte</label>
+<label>
+<input name="campoInt" id="moda" type="checkbox" /> Moda</label>
+</td>
+</tr>
+ 
+<br><input id="res" class="botao" type="reset" value="Limpar" onclick="limpar();"/>
+<input type="submit" value="Cadastrar" name="botaoCadastrar"onclick="return validar();"/>
+</fieldset>
+ 
+</form>
+</main>
+</body>
+</html>

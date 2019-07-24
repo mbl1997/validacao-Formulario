@@ -1,0 +1,14 @@
+fieldset, .quadro {
+    border: 5px solid black;
+    background-color: rgb(231, 231, 231);
+    width: 350px;
+    height: 300px;
+    line-height:1.5; /*espaçamento linhas*/
+     
+    }
+     
+    .botao{
+    height: 20px;
+    width: 70px;
+    }
+    
